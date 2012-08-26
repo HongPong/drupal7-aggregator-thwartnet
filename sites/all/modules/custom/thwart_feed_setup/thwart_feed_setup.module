@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Thwart feed setup feature.
+ */
+
+include_once 'thwart_feed_setup.features.inc';
