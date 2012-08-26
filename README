@@ -1,0 +1,43 @@
+Drupal 7 Aggregator based on Thwart.net
+
+***************************************
+
+GitHub Repo: https://github.com/HongPong/drupal7-aggregator-thwartnet
+Derived from: http://thwart.net
+
+Thwart.net is currently a test project Twitter aggregator which grabs Tweets containing
+certain keywords and saves each tweet as a new Drupal node. This uses a few modules to
+grab those feeds.
+
+Every bit of code in this I believe is GPL licensed and for any fresh code these are
+also GPL.
+
+Developed by everyone in the Drupal community who created the modules.
+This setup developed by Dan Feidt (hongpong) - hongpong@hongpong.com Drupal.org: hongpong
+
+
+***************************************
+SETUP
+
+- Refer to standard Drupal 7 installation. -> INSTALL.txt . Configure the database
+  as normally etc.
+- Fill in unique site settings such as site name, valid site email address etc
+- Once the site is running, then enable the Features module and the subsequent Features-
+  derived nodes
+- Be sure to set cron to run aggressively every 5 minutes or so
+
+NOTE: the included derivative theme 'thwart' is suitable for CSS modification. It is based
+on Zen 5.x theme.
+
+***************************************
+CHANGELOG
+
+8/25/2012 - Initial release 1.0
+
+***************************************
+SUPPORT
+
+For support please file at https://github.com/HongPong/drupal7-aggregator-thwartnet/issues
+or if possible to determine, the issue queue or existing issues for specific modules.
+
+GO GIT EM! +_+
